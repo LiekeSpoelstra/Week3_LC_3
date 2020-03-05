@@ -1,10 +1,12 @@
-num = int(input("Enter a number: "))
-if num > 1:
-    for i in range(2, num):
-        if num % i == 0:
-            print("False")
-            break
-    else:
-        print("True")
-else:
-    print("False")
+import turtle
+window = turtle.Screen()
+tess = turtle.Turtle()
+#   tess.right(90)
+#   tess.left(3600)
+#   tess.right(-90)
+#   tess.speed(10)
+#   tess.left(3600)
+#   tess.speed(0)
+#   tess.left(3645)
+#   tess.forward(-100)
+window.mainloop()
